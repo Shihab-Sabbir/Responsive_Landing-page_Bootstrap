@@ -1,0 +1,132 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    min-height: 6.625rem;
+    max-height: 12.5rem;
+}
+
+.carousel-item h1 {
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.625rem;
+}
+
+.carousel-item p {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.carousel-caption p.btn {
+    width: 10.5rem;
+    height: 2.75rem;
+}
+.info-btn {
+    background: #3F87F5;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.package .card h5.card-header {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.875rem;
+    color: #231D4F;
+}
+.package .card h5.card-title {
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2.0506rem;
+    color: #231D4F;
+}
+
+.package .card p,
+li {
+    font-weight: 400;
+    font-size: .9375rem;
+    line-height: 1.375rem;
+    color: #848199;
+}
+
+.package .card p.btn {
+    background: #e9e6dc;
+    mix-blend-mode: normal;
+    color: #3F87F5;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    width: 12.9375rem;
+    height: 2.8125rem;
+    padding-top: .6875rem;
+}
+
+.package .card:hover{
+    background-color: #3F87F5;
+    transform: scaleY(1.2);
+    transition: transform 1s ease-out;
+    transform-origin: bottom;
+    margin: 20% auto;
+}
+.package .card:hover .card-body p{
+    background-color: #3F87F5;
+    color: white;
+}
+.package .card:hover .card-body h5{
+    background-color: #3F87F5;
+    color: white;
+}
+.package .card:hover .card-header{
+    background-color: #3F87F5 !important;
+    color: white;
+}
+.package .card:hover ul li {
+    background-color: #3F87F5;
+    color: white;
+}
+.package .card:hover p.btn {
+    background-color: white;
+    color: #3F87F5;
+}
+.footer{
+    height: 31.25rem;
+}
+
+/* very sm */
+@media screen and (max-width:575px) {
+    html {
+        font-size: 45%;
+    }
+
+    .carousel-item h1 {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    .carousel-item p {
+        line-height: 1.5rem;
+        margin: 0 auto;
+    }
+
+    .carousel-indicators {
+        margin: 0 auto !important;
+    }
+}
+
+/* sm */
+@media screen and (min-width:576px) and (max-width:768px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+/* md */
+@media screen and (min-width:769px) and (max-width:992px) {
+    html {
+        font-size: 75%;
+    }
+}
