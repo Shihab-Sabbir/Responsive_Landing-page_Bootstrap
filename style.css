@@ -62,7 +62,7 @@ li {
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.125rem;
-    width: 12.9375rem;
+    max-width: 12.9375rem;
     height: 2.8125rem;
     padding-top: .6875rem;
 }
@@ -122,3 +122,4 @@ li {
         font-size: 75%;
     }
 }
+
